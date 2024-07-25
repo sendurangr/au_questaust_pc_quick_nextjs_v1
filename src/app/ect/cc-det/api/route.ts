@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 // Create a Nodemailer transporter using SMTP
 const transporter = nodemailer.createTransport({
-    host: "email-smtp.us-east-1.amazonaws.com", // Replace with your AWS SES SMTP endpoint
+    host: process.env.EMAIL_HOST, // Replace with your AWS SES SMTP endpoint
     port: 587, // Use port 587 or 465
     secure: false, // true for 465, false for other ports
     auth: {
