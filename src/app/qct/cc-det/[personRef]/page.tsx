@@ -66,7 +66,7 @@ export default function Home({params}: { params: { personRef: string } }) {
 
     // post method to /api/pass-cc
     function postCC(data: z.infer<typeof formSchema>) {
-        fetch('/ect/cc-det/api', {
+        fetch('/qct/cc-det/api', {
             method: 'POST',
             body: JSON.stringify({
                 refNumber: params.personRef,
