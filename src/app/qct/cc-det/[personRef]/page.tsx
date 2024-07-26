@@ -123,7 +123,7 @@ export default function Home({params}: { params: { personRef: string } }) {
                     <div className={'items-center self-center md:my-0 md:text-left text-center md:mx-0 my-10 mx-auto'}>
 
                         <h2 className="text-3xl font-semibold tracking-tight text-teal-800">
-                            Questaust Corporate Traveller
+                            Q Aust
                         </h2>
                         <h4 className="text-lg mt-2">
                             Secured Credit Card Information Portal
